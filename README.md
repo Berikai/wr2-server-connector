@@ -13,4 +13,5 @@ So I created an multiplayer tool that gives you the power of connecting a specif
 Just throw it right into the game folder and launch from there. You're welcome ;)
 
 ## Contrubution
+Pull requests are welcome! 
 I actually want to make a new MP Lounge. If you want to help me, contact me on discord: Verdant#6747
