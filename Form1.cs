@@ -70,8 +70,8 @@ namespace wr2_server
                 {
                     //Start host with arguments
                     Process.Start(path, @"/host host /type LAN /mode Ded"
-                        + (checkBox1.Checked ? @" /maxbeam " + numericUpDown1.Value : "")
-                        + (checkBox2.Checked ? @" /maxshort " + numericUpDown2.Value : "")
+                        + (checkBox1.Checked ? @" /maxbeam " + numericUpDown2.Value : "")
+                        + (checkBox2.Checked ? @" /maxshort " + numericUpDown1.Value : "")
                         + @" /maxplr " + numericUpDown3.Value
                         + @" /port " + textBox5.Text
                         + @" /sessname " + textBox6.Text
