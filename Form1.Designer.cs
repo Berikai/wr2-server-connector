@@ -94,7 +94,7 @@ namespace wr2_server
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(92, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -118,6 +118,7 @@ namespace wr2_server
             // nicknameTextBox1
             // 
             this.nicknameTextBox1.Location = new System.Drawing.Point(16, 21);
+            this.nicknameTextBox1.MaxLength = 13;
             this.nicknameTextBox1.Name = "nicknameTextBox1";
             this.nicknameTextBox1.Size = new System.Drawing.Size(177, 20);
             this.nicknameTextBox1.TabIndex = 0;
