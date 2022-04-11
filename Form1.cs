@@ -62,6 +62,10 @@ namespace wr2_server
             textBox1.Text = HostClient;
             textBox2.Text = (PortClient == "") ? "54323" : PortClient;
 
+            label10.Visible = false;
+
+            Thread checkPort = new Thread(checkConn);
+            checkPort.Start();
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
