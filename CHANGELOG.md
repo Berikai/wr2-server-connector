@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.2] - 2022-04-11
+### Added
+- Added server detection.
+
+### Changed
+- Changed "Wr2 Server Connector" tool strip menu name to "Menu"
+
+### Fixed
+- Fixed misplaced MaxShortcut and Resetdelay checkboxes.
+- Fixed some ini file support errors.
+
 ## [1.0.1] - 2022-04-11
 ### Added
 - .ini file support! You can save your settings on the mpl.ini file. (It's the same file that MP Lounge 2 uses)
